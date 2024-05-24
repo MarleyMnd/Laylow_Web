@@ -2,10 +2,7 @@
 
 html {
     color: white;
-    background: black;
-    background-image: url(../img/Lay.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: black url(../img/Lay.png) no-repeat fixed;
     background-size: cover;
 }
 
@@ -73,7 +70,7 @@ footer p a {
 }
 
 footer p {
-    font-weight: none;
+    font-weight: unset;
     font-size: small;
 }
 /* Main section */
