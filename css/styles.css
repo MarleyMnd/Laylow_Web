@@ -30,14 +30,17 @@ nav li {
 nav li a {
     text-decoration: none;
     color: inherit;
+
 }
 
 #home {
     color: #008700;
 }
+
 nav ul #home:hover {
     margin-top: 0.05em;
     font-size: 1.7em;
+    text-shadow: 0 0 20px rgba(61, 255, 0, 0.8);
 }
 nav ul #artist:hover {
     margin-top: 0.05em;
