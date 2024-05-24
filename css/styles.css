@@ -36,7 +36,7 @@ nav li a {
 }
 
 #home {
-    color: rgb(188, 0, 0);
+    color: #005c00;
 }
 nav ul #home:hover {
     margin-top: 0.05em;
