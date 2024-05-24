@@ -1,0 +1,84 @@
+/* ----- General ----- */
+
+html {
+    color: white;
+    background: black;
+    background-image: url(../img/Lay.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* ----- Body ----- */
+/* Navigation bar (Header) */
+
+nav {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.1em 4em;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#home {
+    color: rgb(188, 0, 0);
+}
+nav ul #home:hover {
+    margin-top: 0.05em;
+    font-size: 1.7em;
+}
+nav ul #artist:hover {
+    margin-top: 0.05em;
+    font-size: 1.7em;
+}
+nav ul #albums:hover {
+    font-size: 1.7em;
+}
+nav ul #singles:hover {
+    font-size: 1.7em;
+}
+nav ul #about:hover {
+    font-size: 1.7em;
+}
+
+
+/* Footer */
+
+footer {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3em;
+    text-align: center;
+}
+
+footer p a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    color: inherit;
+}
+
+footer p {
+    font-weight: none;
+    font-size: small;
+}
+/* Main section */
+
+#main {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto 3em auto 3em;
+}
