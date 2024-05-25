@@ -30,7 +30,6 @@ nav li {
 nav li a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #home {
@@ -81,4 +80,29 @@ footer p {
 #main {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: auto 3em auto 3em;
+}
+
+/* ----- Albums ----- */
+.album_covers {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+#Anderson_Cover {
+    text-align: center;
+}
+#Trinity_Cover {
+    text-align: center;
+}
+
+#Anderson_img {
+    height: 70%;
+    width: 70%;
+}
+
+#Trinity_img {
+    height: 70%;
+    width: 70%;
 }
