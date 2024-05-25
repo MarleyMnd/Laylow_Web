@@ -33,13 +33,13 @@ nav li a {
 }
 
 #home {
-    color: #008700;
+    color: #00d800;
 }
 
 nav ul #home:hover {
     margin-top: 0.05em;
     font-size: 1.7em;
-    text-shadow: 0 0 20px rgba(61, 255, 0, 0.8);
+    text-shadow: 0 0 20px #00ff00 !important;
 }
 nav ul #artist:hover {
     margin-top: 0.05em;
@@ -100,9 +100,25 @@ footer p {
 #Anderson_img {
     height: 70%;
     width: 70%;
+    border-radius: 1em;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+#Anderson_img:hover {
+    opacity: 1;
+    height: 72%;
+    width: 72%;
 }
 
 #Trinity_img {
     height: 70%;
     width: 70%;
+    border-radius: 1em;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+#Trinity_img:hover {
+    opacity: 1;
+    height: 72%;
+    width: 72%;
 }
