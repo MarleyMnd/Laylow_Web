@@ -84,6 +84,7 @@ footer p {
 
 /* ----- Albums ----- */
 #album_covers {
+    margin-top: 3em;
     display: grid;
     place-items: center;
     grid-template-columns: auto auto;
@@ -111,16 +112,16 @@ footer p {
 }
 
 #Trinity_img {
-    height: 70%;
-    width: 70%;
+    height: 73%;
+    width: 73%;
     border-radius: 1em;
     transition: 0.5s;
     opacity: 0.8;
 }
 #Trinity_img:hover {
     opacity: 1;
-    height: 72%;
-    width: 72%;
+    height: 75%;
+    width: 75%;
 }
 
 #album_covers p {
