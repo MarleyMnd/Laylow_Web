@@ -22,7 +22,7 @@ nav ul {
 nav li {
     display: inline-block;
     list-style-type: none;
-    padding: 0.1em 4em;
+    padding: 0.1em 3em;
     transition: 0.5s;
     text-transform: uppercase;
 }
@@ -83,7 +83,7 @@ footer p {
 }
 
 /* ----- Albums ----- */
-.album_covers {
+#album_covers {
     display: grid;
     place-items: center;
     grid-template-columns: auto auto;
@@ -121,4 +121,8 @@ footer p {
     opacity: 1;
     height: 72%;
     width: 72%;
+}
+
+#album_covers p {
+    font-weight: bold;
 }
