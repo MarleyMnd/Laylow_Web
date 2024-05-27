@@ -57,12 +57,14 @@ nav ul #about:hover {
 nav ul #quiz:hover {
     font-size: 1.7em;
 }
+
 #back_img {
     transition: 0.2s;
 }
 #back_img:hover {
     height: 110px;
     width: 110px;
+    box-shadow: 0 0 20px #00ff00 !important;
 }
 
 /* Footer */
