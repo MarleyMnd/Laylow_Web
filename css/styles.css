@@ -54,7 +54,9 @@ nav ul #singles:hover {
 nav ul #about:hover {
     font-size: 1.7em;
 }
-
+nav ul #quiz:hover {
+    font-size: 1.7em;
+}
 
 /* Footer */
 
