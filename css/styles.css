@@ -145,6 +145,29 @@ body {
     font-weight: bold;
 }
 
+.top {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+#cover {
+    left: 220px;
+    position: relative;
+    margin-bottom: 20px;
+}
+/* For the images in the cover :*/
+#cover img {
+    border-radius: 10px;
+}
+
+#coverLeft {
+    position: relative;
+    right: 250%;
+    top: -45px;
+}
+
 .table {
     width: 80%;
     max-width: 1000px;
