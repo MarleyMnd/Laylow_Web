@@ -88,9 +88,8 @@ footer p {
     font-weight: unset;
     font-size: small;
 }
-/* Main section */
 
-#main {
+body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: auto 3em auto 3em;
 }
