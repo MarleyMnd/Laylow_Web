@@ -144,3 +144,54 @@ body {
 #album_covers p {
     font-weight: bold;
 }
+
+.table {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(40, 40, 40, 0.6);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.title_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.title_table thead {
+    background-color: rgba(0, 168, 0, 0.8);
+}
+
+.title_table th,
+.title_table td {
+    padding: 1em;
+    text-align: left;
+}
+
+.title_table th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.title_table tbody tr {
+    border-bottom: 1px solid #404040;
+    transition: background-color 0.3s ease;
+}
+
+.title_table tbody tr:nth-child(even) {
+    background-color: rgba(50, 50, 50, 0.6);
+}
+
+.title_table tbody tr:hover {
+    background-color: rgba(83, 83, 83, 0.6);
+}
+
+.title_table tbody td {
+    font-size: 1em;
+    color: #B3B3B3;
+}
