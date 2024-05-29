@@ -59,15 +59,26 @@ nav ul #quiz:hover {
     font-size: 1.7em;
 }
 
-#back_icon {
+#back_icon_Trinity {
     padding: 0.5em;
     color: #00d800;
     font-size: 2.5em;
     transition: 0.2s;
 }
-#back_icon:hover {
+#back_icon_Trinity:hover {
     font-size: 3em;
     text-shadow: 0 0 30px #00ff00 !important;
+}
+
+#back_icon_Anderson {
+    padding: 0.5em;
+    color: #cc9c7e;
+    font-size: 2.5em;
+    transition: 0.2s;
+}
+#back_icon_Anderson:hover {
+    font-size: 3em;
+    text-shadow: 0 0 30px #cc9c7e !important;
 }
 
 /* Footer */
@@ -157,16 +168,17 @@ body {
     position: relative;
     margin-bottom: 20px;
 }
+
 /* For the images in the cover :*/
 #cover img {
     border-radius: 10px;
 }
 
-#coverLeft {
+/* #coverLeft {
     position: relative;
     right: 250%;
     top: -45px;
-}
+} */
 
 .table {
     width: 80%;
@@ -183,8 +195,12 @@ body {
     border-collapse: collapse;
 }
 
-.title_table thead {
+#Trinity_head {
     background-color: rgba(0, 168, 0, 0.8);
+}
+
+#Anderson_head {
+    background-color: rgba(204, 156, 126, 0.8);
 }
 
 .title_table th,
