@@ -10,6 +10,11 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+@font-face {
+    font-family: ImpactFont;
+    src: url("../font/airstrikeexpand-webfont.woff")format("woff");
+}
+
 /* ----- Body ----- */
 /* Navigation bar (Header) */
 
@@ -106,12 +111,13 @@ footer p {
 }
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto 3em auto 3em;
 }
 
 /* ----- Home page ----- */
 #latest_release_img {
+    border-radius: 10px;
     width: 20%;
     transition: 0.5s;
 }
@@ -124,12 +130,19 @@ body {
     margin-top: 3em;
 }
 
+#album_Anderson {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
 #latest_release h1 {
     font-size: 4em;
+    font-family: "ImpactFont", serif;
 }
 
 #title_latest_release {
-    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 /* ----- Albums page ----- */
