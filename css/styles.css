@@ -176,7 +176,7 @@ body {
     flex-shrink: 0;
 }
 
-#cover_text {
+#cover_text_anderson {
     margin-top: 0.5em;
     margin-bottom: 0.25em;
     font-weight: bolder;
@@ -185,7 +185,16 @@ body {
     color: #cc9c7e;
 }
 
-#name_artist {
+#cover_text_trinity {
+    margin-top: 1.25em;
+    margin-bottom: 0.25em;
+    font-weight: bolder;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #00a800;
+}
+
+#name_artist_anderson {
     font-style: italic;
     font-weight: bold;
     color: #93715b;
@@ -193,7 +202,18 @@ body {
     margin-top: 0;
     transition: 0.5s;
 }
-#name_artist:hover {
+#name_artist_trinity {
+    font-style: italic;
+    font-weight: bold;
+    color: #00a800;
+    margin-bottom: 10.5em;
+    margin-top: 0;
+    transition: 0.5s;
+}
+#name_artist_anderson:hover {
+    font-size: 1.1em;
+}
+#name_artist_trinity:hover {
     font-size: 1.1em;
 }
 
