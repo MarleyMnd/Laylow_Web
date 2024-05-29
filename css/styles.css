@@ -157,28 +157,19 @@ body {
 }
 
 .top {
-    display: grid;
-    place-items: center;
-    grid-template-columns: auto auto;
-    gap: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    margin-left: 12.75em;
 }
 
 #cover {
-    left: 220px;
-    position: relative;
-    margin-bottom: 20px;
-}
-
-/* For the images in the cover :*/
-#cover img {
     border-radius: 10px;
+    width: 20%;
+    height: 20%;
+    flex-shrink: 0;
 }
-
-/* #coverLeft {
-    position: relative;
-    right: 250%;
-    top: -45px;
-} */
 
 .table {
     width: 80%;
