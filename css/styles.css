@@ -190,6 +190,22 @@ body {
     color: #93715b;
 }
 
+.fa-brands {
+    font-size: 1.5em;
+}
+.fa-deezer {
+    color: #b15eff;
+}
+.fa-spotify {
+    color: #00d800;
+}
+.fa-itunes {
+    color: #ff59b3;
+}
+.fa-youtube {
+    color: #ff4848;
+}
+
 .table {
     width: 80%;
     max-width: 1000px;
