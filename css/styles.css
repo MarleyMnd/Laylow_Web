@@ -110,7 +110,29 @@ body {
     margin: auto 3em auto 3em;
 }
 
-/* ----- Albums ----- */
+/* ----- Home page ----- */
+#latest_release_img {
+    width: 20%;
+    transition: 0.5s;
+}
+#latest_release_img:hover {
+    width: 21%;
+}
+
+#latest_release {
+    text-align: center;
+    margin-top: 3em;
+}
+
+#latest_release h1 {
+    font-size: 4em;
+}
+
+#title_latest_release {
+    text-transform: uppercase;
+}
+
+/* ----- Albums page ----- */
 #album_covers {
     margin-top: 3em;
     display: grid;
@@ -160,6 +182,7 @@ body {
     font-weight: bold;
 }
 
+/* ----- Each Album pages ----- */
 .top {
     display: flex;
     align-items: center;
@@ -202,6 +225,9 @@ body {
     margin-top: 0;
     transition: 0.5s;
 }
+#name_artist_anderson:hover {
+    font-size: 1.1em;
+}
 #name_artist_trinity {
     font-style: italic;
     font-weight: bold;
@@ -209,9 +235,6 @@ body {
     margin-bottom: 10.5em;
     margin-top: 0;
     transition: 0.5s;
-}
-#name_artist_anderson:hover {
-    font-size: 1.1em;
 }
 #name_artist_trinity:hover {
     font-size: 1.1em;
