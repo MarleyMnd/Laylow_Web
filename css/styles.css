@@ -6,6 +6,10 @@ html {
     background-size: cover;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+}
+
 /* ----- Body ----- */
 /* Navigation bar (Header) */
 
@@ -172,11 +176,8 @@ body {
     flex-shrink: 0;
 }
 
-#text_top {
-    margin-bottom: 10em;
-}
-
 #cover_text {
+    margin-top: 3em;
     font-weight: bolder;
     font-size: 1.75em;
     text-transform: uppercase;
@@ -188,19 +189,28 @@ body {
     font-style: italic;
     font-weight: bold;
     color: #93715b;
+    margin-bottom: 10.5em;
 }
 
 .fa-brands {
-    font-size: 1.5em;
+    font-size: 2em;
+    margin-right: 0.5em;
+
 }
 .fa-deezer {
-    color: #b15eff;
+    background: linear-gradient(to left, rgb(255, 130, 63), rgb(51, 228, 61));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .fa-spotify {
     color: #00d800;
 }
 .fa-itunes {
-    color: #ff59b3;
+    background: linear-gradient(to right, rgb(255, 63, 109), rgb(121,121,244));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .fa-youtube {
     color: #ff4848;
