@@ -334,3 +334,39 @@ body {
     font-size: 1em;
     color: #B3B3B3;
 }
+
+.advice {
+    width: 80%;
+    max-width: 1000px;
+    margin: 3em auto 0;
+}
+
+.advice h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-family: ImpactFont, serif;
+}
+
+#title_advice_Anderson {
+    color: #cc9c7e;
+}
+
+#title_advice_Trinity {
+    color: #00d800;
+}
+
+#advice_content {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#advice_content ol {
+    list-style: disc;
+}
+
+#advice_content li {
+    padding: 0.5em;
+}
