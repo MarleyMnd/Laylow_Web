@@ -353,11 +353,15 @@ body {
 }
 
 #title_advice_Anderson {
-    color: #cc9c7e;
+    color: white;
+    background: linear-gradient(to right, rgba(204, 156, 126, 0.15), rgba(204, 156, 126, 0.7), rgba(204, 156, 126, 0.15));
+    border-radius: 10em;
 }
 
 #title_advice_Trinity {
-    color: #00d800;
+    color: white;
+    background: linear-gradient(to right, rgba(0, 216, 0, 0.15), rgba(0, 216, 0, 0.7), rgba(0, 216, 0, 0.15));
+    border-radius: 10em;
 }
 
 #advice_content {
