@@ -380,3 +380,24 @@ body {
     padding: 0.5em;
     max-width: 95%;
 }
+
+.quizzButton{
+    width: 500px;
+    cursor: pointer;
+    background: red;
+    padding: 0;
+}
+
+.quizzButton img{
+    width: 500px;
+}
++
+#main\ quiz{
+    position: relative;
+    display: inline-block;
+    align-content: center;
+}
+
+#main\ quiz div{
+    margin: 5em;
+}
