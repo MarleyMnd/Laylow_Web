@@ -392,13 +392,13 @@ body {
     width: 500px;
 }
 +
-#main\ quiz{
+#main_quiz{
     position: relative;
     display: inline-block;
     align-content: center;
 }
 
-#main\ quiz div{
+#main_quiz div{
     margin: 5em;
 }
 
