@@ -1,0 +1,7 @@
+function findSong() {
+
+}
+
+function findLyrics() {
+
+}
