@@ -64,7 +64,8 @@ function checkAnswers_findlyrics() {
     resultElement.textContent = `You got ${score}/${correctAnswers.length}`;
 }
 
-
 function muteVideo() {
+    var video = document.getElementById("video_concert");
 
+    video.muted = !video.muted;
 }
