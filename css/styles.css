@@ -408,3 +408,47 @@ body {
     margin: 3em auto 0;
     display: none;
 }
+
+#title_quiz_song {
+    font-family: ImpactFont, serif;
+    margin-top: 2em;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, rgba(204, 156, 126, 0.15), rgba(204, 156, 126, 0.7), rgba(204, 156, 126, 0.15));
+    border-radius: 10em;
+}
+
+#title_quiz_lyrics {
+    font-family: ImpactFont, serif;
+    margin-top: 2em;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 216, 0, 0.15), rgba(0, 216, 0, 0.7), rgba(0, 216, 0, 0.15));
+    border-radius: 10em;
+}
+
+#display_quiz_findsong ol {
+    margin-top: 3em;
+}
+
+#display_quiz_findsong .questions_style {
+    background-color: rgba(204, 156, 126, 0.15);
+}
+
+#display_quiz_findlyrics .questions_style {
+    background-color: rgba(0, 216, 0, 0.15);
+}
+
+#display_quiz_findlyrics ol {
+    margin-top: 3em;
+}
+
+.questions_style {
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-top: 2em;
+}
+
+.questions_style li {
+    margin-top: 1em;
+}
