@@ -452,3 +452,39 @@ body {
 .questions_style li {
     margin-top: 1em;
 }
+
+#submit_quiz_song {
+    background-color: #cc9c7e;
+    border: none;
+    color: white;
+    padding: 1em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 2.5em;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+#submit_quiz_lyrics {
+    background-color: #00d800;
+    border: none;
+    color: white;
+    padding: 1em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 2.5em;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+#resultA {
+    text-align: center;
+}
+
+#resultB {
+    text-align: center;
+}

@@ -15,11 +15,11 @@ function findLyrics() {
 }
 
 function checkAnswers_findsong() {
-    let correctAnswers = ['a', 'b', 'a', 'c', 'b'];
+    let correctAnswers = ["a", "b", "a", "c", "b"];
     let userAnswers = [];
 
     for (let i = 1; i <= 5; i++) {
-        const radios = document.getElementsByName('Aq' + i);
+        const radios = document.getElementsByName("Aq" + i);
         for (const radio of radios) {
             if (radio.checked) {
                 userAnswers.push(radio.value);
@@ -35,16 +35,16 @@ function checkAnswers_findsong() {
         }
     }
 
-    const resultElement = document.getElementById('resultA');
+    const resultElement = document.getElementById("resultA");
     resultElement.textContent = `You got ${score} out of ${correctAnswers.length} correct.`;
 }
 
 function checkAnswers_findlyrics() {
-    const correctAnswers = ['c', 'a', 'b', 'c', 'b'];
+    const correctAnswers = ["c", "a", "b", "c", "b"];
     const userAnswers = [];
 
     for (let i = 1; i <= 5; i++) {
-        const radios = document.getElementsByName('Bq' + i);
+        const radios = document.getElementsByName("Bq" + i);
         for (const radio of radios) {
             if (radio.checked) {
                 userAnswers.push(radio.value);
@@ -60,6 +60,6 @@ function checkAnswers_findlyrics() {
         }
     }
 
-    const resultElement = document.getElementById('resultB');
-    resultElement.textContent = `You got ${score} out of ${correctAnswers.length} correct.`;
+    const resultElement = document.getElementById("resultB");
+    resultElement.textContent = `You got ${score}/${correctAnswers.length}`;
 }
