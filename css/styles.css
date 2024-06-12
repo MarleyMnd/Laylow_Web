@@ -401,3 +401,14 @@ body {
 #main\ quiz div{
     margin: 5em;
 }
+
+.questions_style li {
+    list-style-type: none;
+}
+
+#display_quiz_findsong {
+    width: 80%;
+    max-width: 1000px;
+    margin: 3em auto 0;
+    display: none;
+}
