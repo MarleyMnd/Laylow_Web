@@ -537,19 +537,17 @@ video:hover {
     padding: 10px;
 }
 
-#EP{
-    padding: 20px;
+#EPs {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.first_EPs{
-
-}
-
-.last_EPs{
-
+#EPs img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    flex: 0 0 calc(35% - 20px);
 }
 
 #description {
