@@ -504,3 +504,7 @@ body {
     background: linear-gradient(to right, rgb(0, 0, 0), rgb(110, 106, 106), rgba(7, 7, 7, 0.62));
     border-radius: 10em;
 }
+
+video:hover {
+    cursor: pointer;
+}
