@@ -552,4 +552,28 @@ video:hover {
 
 }
 
+#description {
+    padding: 1.5em;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+}
 
+#description div {
+    padding: 1em;
+    border-radius: 1em;
+    background: rgba(0, 216, 0, 0.1);
+    max-width: 45%;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+#description div h1 {
+    color: #00d800;
+}
+
+#main_about {
+    padding: 2em;
+    text-align: center;
+}
