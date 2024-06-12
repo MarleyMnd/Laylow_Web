@@ -5,6 +5,30 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../css/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            #description {
+                padding: 1.5em;
+                display:flex;
+                flex-direction: row;
+                justify-content: space-around;
+                text-align: left;
+            }
+
+            #description div {
+                max-width: 45%;
+                word-wrap: break-word;
+                text-align: justify;
+            }
+
+            #description div h1 {
+                color: #00d800;
+            }
+
+            #main {
+                padding: 2em;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -19,13 +43,23 @@
         </header>
 
         <div id="main">
-            <div id="Eugenie">
-                <h1>Eugénie</h1>
-                I like rap.
-            </div>
-            <div id="Marley">
-                <h1>Marley</h1>
-                I don't like rap that much but I liked L'Étrange histoire de M. Anderson.
+            <a id="intro">
+                We are two students at EFREI Paris. This our project for web programming.
+                <p>We aimed to develop a website to critic Laylow's music.</p>
+            </a>
+            <div id="description">
+                <div id="Eugenie">
+                    <h1>Eugénie</h1>
+                    I like rap.
+                </div>
+                <div id="Marley">
+                    <h1>Marley</h1>
+                    <p>Hey there!</p>
+                    <p>Welcome to my slice of the web, where we're all about diving deep into the world of Laylow, the French artist who's making waves everywhere you look.</p>
+                    <p>I'm Marley, and chances are, you already know a thing or two about Laylow. His music, his style – they're practically unavoidable! But, even if you already know about him, there's always more to explore and unpack.</p>
+                    <p>Here, I'm offering my own advice, insights and perspectives that might just give you a new appreciation for Laylow's artistry. Consider this your go-to spot to dissect his latest tracks!</p>
+                    <p>So, whether you're a longtime fan or just curious about what the fuss is all about, stick around. There's plenty more to discover about this rapper.</p>
+                </div>
             </div>
         </div>
 
