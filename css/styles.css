@@ -384,22 +384,11 @@ body {
 .quizzButton{
     width: 500px;
     cursor: pointer;
-    background: red;
     padding: 0;
 }
 
 .quizzButton img{
     width: 500px;
-}
-+
-#main_quiz{
-    position: relative;
-    display: inline-block;
-    align-content: center;
-}
-
-#main_quiz div{
-    margin: 5em;
 }
 
 .questions_style li {
