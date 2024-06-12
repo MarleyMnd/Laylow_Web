@@ -508,3 +508,21 @@ body {
 video:hover {
     cursor: pointer;
 }
+
+#duo_sirklo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.youtube_sirklo {
+    margin-right: 20px;
+    padding:10px;
+}
+
+.text_sirklo {
+    max-width: 600px;
+    padding: 10px;
+}
+
