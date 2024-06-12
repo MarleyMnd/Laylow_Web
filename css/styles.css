@@ -509,12 +509,23 @@ video:hover {
     cursor: pointer;
 }
 
-#duo_sirklo {
+#duo_sirklo, #wit_duo{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding: 20px;
 }
+
+.youtube_sirklo, .photo_wit {
+    margin-right: 20px;
+    padding:10px;
+}
+
+.text_sirklo, .text_wit {
+    max-width: 600px;
+    padding: 10px;
+}
+
 
 .youtube_sirklo {
     margin-right: 20px;
@@ -525,4 +536,20 @@ video:hover {
     max-width: 600px;
     padding: 10px;
 }
+
+#EP{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.first_EPs{
+
+}
+
+.last_EPs{
+
+}
+
 
