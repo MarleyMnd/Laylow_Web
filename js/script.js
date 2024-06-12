@@ -63,3 +63,8 @@ function checkAnswers_findlyrics() {
     const resultElement = document.getElementById("resultB");
     resultElement.textContent = `You got ${score}/${correctAnswers.length}`;
 }
+
+
+function muteVideo() {
+
+}
