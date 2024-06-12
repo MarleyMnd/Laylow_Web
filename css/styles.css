@@ -483,8 +483,14 @@ body {
 
 #resultA {
     text-align: center;
+    font-family: ImpactFont, serif;
+    font-size: 2em;
+    background: linear-gradient(to right, rgba(204, 156, 126, 0.15), rgba(204, 156, 126, 0.7), rgba(204, 156, 126, 0.15));
 }
 
 #resultB {
     text-align: center;
+    font-family: ImpactFont, serif;
+    font-size: 2em;
+    background: linear-gradient(to right, rgba(0, 216, 0, 0.15), rgba(0, 216, 0, 0.7), rgba(0, 216, 0, 0.15));
 }

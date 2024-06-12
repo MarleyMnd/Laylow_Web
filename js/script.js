@@ -36,7 +36,7 @@ function checkAnswers_findsong() {
     }
 
     const resultElement = document.getElementById("resultA");
-    resultElement.textContent = `You got ${score} out of ${correctAnswers.length} correct.`;
+    resultElement.textContent = `You got ${score}/${correctAnswers.length}`;
 }
 
 function checkAnswers_findlyrics() {
