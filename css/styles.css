@@ -412,3 +412,10 @@ body {
     margin: 3em auto 0;
     display: none;
 }
+
+#display_quiz_findlyrics {
+    width: 80%;
+    max-width: 1000px;
+    margin: 3em auto 0;
+    display: none;
+}
